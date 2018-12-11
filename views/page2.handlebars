@@ -1,0 +1,20 @@
+<div>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{#each data}}
+      <tr>
+        <td>{{this.price}}</td>
+        <td>{{this.description}}</td>
+        <td><a href="/detail?input_link={{this.url}}">Detail</a></td>
+      </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
