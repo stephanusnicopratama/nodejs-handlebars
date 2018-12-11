@@ -98,6 +98,6 @@ app.get("/detail", (req, res) => {
     })
 });
 
-var port = process.env.PORT || 3000;
-app.listen(port);
+const port = process.env.PORT || 3000;
+app.listen(process.env.PORT);
 console.log('Server Started listening on ' + port);
