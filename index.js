@@ -98,6 +98,5 @@ app.get("/detail", (req, res) => {
     })
 });
 
-const port = process.env.PORT || 3000;
-app.listen(process.env.PORT);
+app.listen(port);
 console.log('Server Started listening on ' + port);
