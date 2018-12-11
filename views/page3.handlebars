@@ -28,6 +28,7 @@
 {{#each comments}}
 <div style="margin-top: 20px">
   {{this.message}}
-  <p><small><a href="/detail?input_link={{this.currentURL}}&id={{this.messageID}}&action=voteup">({{this.voteUp}})Voteup</a> - <a href="/detail?input_link={{this.currentURL}}&id={{this.messageID}}&action=votedown">({{this.voteDown}})Votedown</a></small></p>
+  <p><small><a href="/detail?input_link={{this.currentURL}}&id={{this.messageID}}&action=voteup">({{this.voteUp}})Voteup</a>
+      - <a href="/detail?input_link={{this.currentURL}}&id={{this.messageID}}&action=votedown">({{this.voteDown}})Votedown</a></small></p>
 </div>
 {{/each}}
