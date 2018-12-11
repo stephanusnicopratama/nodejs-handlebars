@@ -1,4 +1,3 @@
-
 <div>
   <div>
     <label>Harga Produk :</label>
@@ -13,3 +12,22 @@
     {{currentTime}}
   </div>
 </div>
+
+<div>
+  <form action="/detail" method="GET">
+    <div>
+      <input type="hidden" name="input_link" value={{currentURL}} />
+      <textarea placeholder="Komentar anda" style="resize: none;" cols="50" rows="5" name="comment"></textarea>
+    </div>
+    <div>
+      <button>Submit</button>
+    </div>
+  </form>
+</div>
+
+{{#each comments}}
+<div style="margin-top: 20px">
+  {{this.message}}
+  <p><small><a href="/detail?input_link={{this.currentURL}}&id={{this.messageID}}&action=voteup">({{this.voteUp}})Voteup</a> - <a href="/detail?input_link={{this.currentURL}}&id={{this.messageID}}&action=votedown">({{this.voteDown}})Votedown</a></small></p>
+</div>
+{{/each}}
