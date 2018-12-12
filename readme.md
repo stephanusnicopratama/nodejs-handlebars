@@ -8,5 +8,5 @@
 https://price-monitor-web-app.herokuapp.com/
 
 ## Sample test fabelio link
-o. https://fabelio.com/ip/toril-wingchair.html
-o. https://fabelio.com/ip/kursi-giorgia.html
+* https://fabelio.com/ip/toril-wingchair.html
+* https://fabelio.com/ip/kursi-giorgia.html
