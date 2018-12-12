@@ -6,3 +6,7 @@
 
 #### Working example
 https://price-monitor-web-app.herokuapp.com/
+
+## Sample test fabelio link
+https://fabelio.com/ip/toril-wingchair.html
+https://fabelio.com/ip/kursi-giorgia.html
